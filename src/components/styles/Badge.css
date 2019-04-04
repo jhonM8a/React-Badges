@@ -47,3 +47,37 @@
   font-weight: bold;
   font-style: italic;
 }
+
+/*Estilos para BadgeList*/
+.Badge-list {
+  background: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+  border-radius: 8px 8px 8px 8px;
+  overflow: hidden;
+  height: 150px;
+  margin: 30px;
+}
+
+
+.Badge__avatar-list {
+  border-radius: 30%;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+}
+
+.Badge__section-name-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.Badge__section-info-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+  background: #F4F4F7;
+}

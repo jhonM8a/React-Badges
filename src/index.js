@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Badge from './components/Badge';
 import BadgeNew from './pages/BadgeNew';
+import Badges from './pages/Badges';
 import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
 
@@ -18,4 +19,5 @@ ReactDOM.render(
         twitter="@jochoa"
         avatar="https://es.gravatar.com/avatar?d=identicon"  />, 
     container);*/
-ReactDOM.render(<BadgeNew/>, container);
+//ReactDOM.render(<BadgeNew/>, container);
+ReactDOM.render(<Badges/>, container);
