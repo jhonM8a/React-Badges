@@ -68,6 +68,7 @@ class BadgeNew extends Component {
               />
             </div>
             <div className="col-6">
+              <h1>New Person</h1>
               <BadgeForm
                 onChange={this.handleChange}
                 onSubmit={this.handleSubmit}
